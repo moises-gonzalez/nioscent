@@ -10,11 +10,25 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 </head>
+
 <body>
-{% extends "layout.html" %}
-{% block content %}
-<h1>Index.html</h1>
-{% endblock %}
+    {% extends "layout.html" %}
+    {% block content %}
+
+    <div class="container">
+        <div class="card mb-3">
+            <img class="card-img-top" src="{{ url_for('static', filename='img/logo.png') }}" alt="Nioscent Technologies">
+            <div class="card-body">
+                <h5 class="card-title">Nioscent Technologies</h5>
+                <p class="card-text">
+                    <embed src="{{ url_for('static', filename='content/index.html') }}"/>
+                    <a href=" {{ url_for('about') }} " class="btn btn-primary">Go somewhere</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
 </body>
 
 </html>

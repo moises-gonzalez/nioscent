@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun|Source+Sans+Pro');
+
 body{
     background: rgb(245, 243, 218);
 }
 
 .logo{
-    width: 75%;
+    width: 65%;
     margin: -1px;
 }
+.container{
+    padding-top: 15px;
+}
+embed{
+    width: 100%;
+    margin: auto;
+}
+
