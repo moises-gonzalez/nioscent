@@ -14,16 +14,34 @@
 <body>
     {% extends "layout.html" %}
     {% block content %}
-
-    <div class="container">
         <div class="card mb-3">
-            <img class="card-img-top" src="{{ url_for('static', filename='img/logo.png') }}" alt="Nioscent Technologies">
+            <img class="card-img-top" src="{{ url_for('static', filename='img/banner.png') }}"
+                alt="Nioscent Technologies">
             <div class="card-body">
-                <h5 class="card-title">Nioscent Technologies</h5>
+                <h5 class="card-title display-4">Nioscent Technologies</h5>
                 <p class="card-text">
-                    <embed src="{{ url_for('static', filename='content/index.html') }}"/>
-                    <a href=" {{ url_for('about') }} " class="btn btn-primary">Go somewhere</a>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia praesentium architecto
+                    natus
+                    dignissimos id, maiores fugit ab similique totam tempora ratione fugiat corporis. Nesciunt amet
+                    aut
+                    velit eius sequi!
                 </p>
+                <p class="card-text">
+                    LLorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia praesentium architecto
+                    natus
+                    dignissimos id, maiores fugit ab similique totam tempora ratione fugiat corporis. Nesciunt amet
+                    aut
+                    velit eius sequi!
+                </p>
+                <p class="card-text">
+                    LLorem ipsum dolor sit amet consectetur adipisicing elit. Cumque mollitia praesentium architecto
+                    natus
+                    dignissimos id, maiores fugit ab similique totam tempora ratione fugiat corporis. Nesciunt amet
+                    aut
+                    velit eius sequi!
+                </p>
+                <a href=" {{ url_for('about') }} " class="btn btn-outline-primary btn-lg btn-block">About</a>
+                <a href=" {{ url_for('contact') }} " class="btn btn-outline-danger btn-lg btn-block">Contact</a>
             </div>
         </div>
     </div>
