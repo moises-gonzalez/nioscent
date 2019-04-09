@@ -10,14 +10,11 @@ body{
     margin: -1px;
 }
 .container{
-    padding-top: 2.5%;
+    padding-top: 2%;
 }
 .card-title{
     font-family: 'Sarabun', sans-serif;
 }
 .card-text, .navbar-nav{
     font-family: 'Source Sans Pro', sans-serif;
-}
-footer{
-    
 }
